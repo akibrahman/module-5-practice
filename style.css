@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Public+Sans:wght@300;400;500;600;700&family=Work+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Work Sans;
+}
+.btn {
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid transparent;
+}
+.btn:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #005fac;
+  transition: 0.25s linear;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+.header-wrap {
+  height: 100vh;
+  background-image: url(./images/banner/banner3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  padding: 0 220px;
+  gap: 25px;
+}
+.h-title {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 800;
+  text-align: right;
+}
+.h-description {
+  color: #fff;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
