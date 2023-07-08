@@ -165,7 +165,6 @@ footer {
   display: flex;
   background-color: #151414;
   color: #fff;
-  margin-bottom: 1000px;
 }
 .f-left {
   width: 50%;
@@ -225,4 +224,19 @@ footer {
   font-size: 20px;
   font-weight: 600;
   margin-top: 20px;
+}
+.licence {
+  color: #fff;
+  background-color: #151414;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+.licence span {
+  color: #005fac;
+  font-weight: bold;
+  background-color: #fff;
+  padding: 2px 6px;
+  border-radius: 20px;
+  font-size: 20px;
 }
