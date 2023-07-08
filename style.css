@@ -98,3 +98,40 @@
   width: 20px;
   margin-right: 10px;
 }
+
+.plan-container {
+  background-color: #fff;
+}
+.p-title {
+  text-align: center;
+  font-weight: 900;
+}
+.plan-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 60px auto;
+}
+.p-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.p-img {
+  width: 90px;
+  margin-bottom: 25px;
+}
+.p-subtitle {
+  color: #151414;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+.p-info {
+  color: #737272;
+  font-size: 20px;
+  font-weight: 500;
+}
