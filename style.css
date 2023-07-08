@@ -21,6 +21,11 @@
   border: 1px solid #fff;
   border-radius: 20px;
 }
+.title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 800;
+}
 .header-wrap {
   height: 100vh;
   background-image: url(./images/banner/banner3.png);
@@ -46,4 +51,50 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+}
+
+.prev-year {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+.prev-year-left {
+  width: 55%;
+}
+.prev-year-left img {
+  width: 450px;
+  display: block;
+  margin: 0 auto;
+}
+.prev-year-right {
+  width: 45%;
+  text-align: left;
+}
+.prev-year-title {
+  margin-bottom: 15px;
+}
+.prev-year-description {
+  color: #444343;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 10px;
+  width: 415px;
+}
+.prev-year-right li {
+  color: #444343;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px;
+  list-style: none;
+  margin-left: 30px;
+  position: relative;
+}
+.prev-year-right li img {
+  position: absolute;
+  top: 7px;
+  left: -25px;
+  width: 20px;
+  margin-right: 10px;
 }
